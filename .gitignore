@@ -205,3 +205,70 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# ML / CV / Sensor projects
+# =========================
+
+# Datasets / large assets (common folder names)
+data/
+dataset/
+datasets/
+raw/
+processed/
+interim/
+external/
+assets/
+inputs/
+
+# Waymo / autonomous driving data
+*.tfrecord
+*.tfrecords
+*.parquet
+*.feather
+*.npz
+*.npy
+*.hdf5
+*.h5
+*.bag
+
+# Images / video
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# LiDAR / point clouds
+*.pcd
+*.ply
+*.bin
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Training artifacts / outputs
+runs/
+wandb/
+mlruns/
+logs/
+outputs/
+results/
+checkpoints/
+saved_models/
+models/
+
+# OS / temp
+.DS_Store
+Thumbs.db
+
